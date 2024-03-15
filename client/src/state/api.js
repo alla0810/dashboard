@@ -15,6 +15,10 @@ export const api = createApi({
     "Dashboard",
   ],
   endpoints: (build) => ({
+    getAllUser: build.query({
+      query: (id) => `general/user/`,
+      providesTags: ["User"],
+    }),
     getUser: build.query({
       query: (id) => `general/user/${id}`,
       providesTags: ["User"],
@@ -59,6 +63,7 @@ export const api = createApi({
 });
 
 export const {
+  useGetAllUserQuery,
   useGetUserQuery,
   useGetProductsQuery,
   useGetCustomersQuery,
