@@ -18163,6 +18163,7 @@ export const dataUser = [
     country: "RU",
     occupation: "Office Assistant III",
     phoneNumber: "2634455004",
+    role: "user",    
     transactions: [
       "63701d74f0323944410002f8",
       "63701d74f03239569400001e",
@@ -18174,7 +18175,6 @@ export const dataUser = [
       "63701d74f03239f09e00019f",
       "63701d74f03239528f00001b",
     ],
-    role: "user",
   },
   {
     _id: "63701cc1f0323944410002dd",
@@ -18186,6 +18186,7 @@ export const dataUser = [
     country: "UA",
     occupation: "Tax Accountant",
     phoneNumber: "5491175476",
+    role: "user",    
     transactions: [
       "63701d74f03239c72c0001be",
       "63701d74f03239f09e0001b6",
@@ -18195,7 +18196,7 @@ export const dataUser = [
       "63701d74f03239d40b000067",
       "63701d74f03239b91300002f",
     ],
-    role: "user",
+
   },
   {
     _id: "63701cc1f0323944410002de",
@@ -18239,6 +18240,7 @@ export const dataUser = [
     country: "HN",
     occupation: "Senior Editor",
     phoneNumber: "7693297972",
+    role: "user",    
     transactions: [
       "63701d74f032394441000306",
       "63701d74f03239867500014b",
@@ -18251,7 +18253,7 @@ export const dataUser = [
       "63701d74f03239c72c0001b6",
       "63701d74f03239569400001d",
     ],
-    role: "user",
+
   },
   {
     _id: "63701cc1f0323944410002e1",

@@ -43,6 +43,8 @@ app.use("/general", generalRoutes);
 app.use("/management", managementRoutes);
 app.use("/sales", salesRoutes);
 
+// console.log("dataUser", dataUser);
+
 /* MONGOOSE SETUP */
 const PORT = process.env.PORT || 9000;
 mongoose
