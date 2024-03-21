@@ -1,9 +1,10 @@
 import express from "express";
-import { getAllUser, getUser } from "../controllers/general.js"
+import { getAllUser, getUser, getDashboardStats } from "../controllers/general.js"
 
 const router = express.Router();
 
 router.get("/user/", getAllUser);
 router.get("/user/:id", getUser);
+router.get("/dashboard", getDashboardStats);
 
 export default router;
